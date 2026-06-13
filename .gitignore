@@ -1,0 +1,22 @@
+# Internal reference — never publish
+placeholder-archive/
+
+# Build / Python artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+.vscode/
+.idea/
+
+# Local env vars (for future Supabase integration)
+.env
+.env.local
+.env*.local

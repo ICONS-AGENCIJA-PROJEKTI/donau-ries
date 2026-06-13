@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900">
+<rect width="1400" height="900" fill="#edf3f5"/>
+<path d="M0 670 C230 570 420 760 680 625 C920 500 1080 540 1400 430 V900 H0 Z" fill="#d8e5ea"/>
+<circle cx="1120" cy="170" r="88" fill="#d8a73d"/>
+<text x="90" y="150" font-family="Arial, sans-serif" font-size="48" font-weight="700" fill="#113340">Placeholder</text>
+<text x="90" y="212" font-family="Arial, sans-serif" font-size="26" fill="#51646b">Replace image before publication</text>
+</svg>

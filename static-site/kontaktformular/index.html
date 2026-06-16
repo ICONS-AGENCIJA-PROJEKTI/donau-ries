@@ -30,7 +30,7 @@
   <div>
     <span class="kicker">Kontakt</span>
     <h1>Sprechen wir ueber Ihr Projekt.</h1>
-    <p>Die lokale Praesentation sendet keine Daten. Fuer den Livegang wird das Formular sauber angebunden.</p>
+    <p>Erzaehlen Sie uns kurz von Ihrem Vorhaben — wir melden uns mit einer passenden Empfehlung.</p>
     <div class="hero-actions">
       <a class="button primary" href="../kontaktformular/">Anfrage starten</a>
       <a class="button ghost" href="../">Zur Startseite</a>
@@ -86,15 +86,15 @@
 
 <section class="section contact-section">
   <div>
-    <span class="kicker">Demo-Formular</span>
-    <h2>Kontakt ohne externe Uebertragung.</h2>
-    <p>Diese lokale Version zeigt nur die Funktion. Beim Livegang werden Empfaenger, Datenschutz und Spam-Schutz final eingerichtet.</p>
+    <span class="kicker">Kontaktformular</span>
+    <h2>Schreiben Sie uns Ihr Anliegen.</h2>
+    <p>Ihre Anfrage erreicht uns direkt. Wir melden uns zeitnah mit den naechsten Schritten.</p>
   </div>
-  <form data-demo-form>
+  <form data-supabase-form>
     <label>Name<input name="name" autocomplete="name" placeholder="Max Mustermann"></label>
     <label>E-Mail<input name="email" autocomplete="email" placeholder="name@example.de"></label>
     <label>Projekt<textarea name="message" placeholder="Bad, Heizung, Solar oder Haustechnik?"></textarea></label>
-    <button class="button primary" type="submit">Demo-Anfrage testen</button>
+    <button class="button primary" type="submit">Anfrage senden</button>
     <p class="form-notice" data-form-notice></p>
   </form>
 </section>
@@ -131,5 +131,7 @@
 <a class="mobile-action" href="../kontaktformular/">Projekt anfragen</a>
 
   <script src="../assets/site-modern.js"></script>
+  <script src="../assets/supabase-config.js"></script>
+  <script type="module" src="../assets/contact-form.js"></script>
 </body>
 </html>

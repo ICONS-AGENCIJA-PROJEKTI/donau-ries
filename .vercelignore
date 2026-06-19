@@ -1,0 +1,3 @@
+# Only the static site needs to be uploaded for deployment.
+/*
+!/static-site

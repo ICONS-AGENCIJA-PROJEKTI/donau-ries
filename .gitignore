@@ -1,6 +1,9 @@
 # Internal reference — never publish
 placeholder-archive/
 
+# Node / npm
+node_modules/
+
 # Build / Python artifacts
 __pycache__/
 *.py[cod]
@@ -20,3 +23,5 @@ desktop.ini
 .env
 .env.local
 .env*.local
+
+.vercel

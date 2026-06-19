@@ -34,3 +34,13 @@ document.addEventListener('click', (event) => {
     if (t) t.setAttribute('aria-expanded', 'false');
   }
 });
+
+// Mobile hamburger menu (event delegation)
+document.addEventListener('click', (event) => {
+  const toggle = event.target.closest('.nav-toggle');
+  if (!toggle) return;
+  const header = toggle.closest('.site-header');
+  if (!header) return;
+  const isOpen = header.toggleAttribute('data-nav-open');
+  toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+});

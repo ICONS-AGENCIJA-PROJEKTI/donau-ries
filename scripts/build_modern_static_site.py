@@ -130,6 +130,7 @@ PAGES = [
 
 
 NAV = [
+    ("/", "Home"),
     ("/bad/", "Bad"),
     ("/heizung/", "Heizung"),
     ("/solar/", "Solar"),

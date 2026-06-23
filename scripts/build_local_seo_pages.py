@@ -75,6 +75,108 @@ CITIES = [
             ("Bieten Sie auch Lüftungs- und Sanitärtechnik an?", "Ja. Neben Bad und Heizung gehören kontrollierte Wohnraumlüftung, Sanitärinstallation, Wassertechnik und weitere Haustechnik zu unserem Angebot."),
         ],
     },
+    {
+        "slug": "haustechnik-rain",
+        "name": "Rain",
+        "region": "Bayern",
+        "title": "SHK-Fachbetrieb Rain | Heizung, Wärmepumpe & Bad",
+        "description": "Heizung, Wärmepumpe, Bad, Solar und Sanitär für Rain am Lech. Regionaler SHK-Fachbetrieb mit Sitz in Harburg im Landkreis Donau-Ries.",
+        "h1": "Haustechnik für Rain – effizient und regional umgesetzt.",
+        "lead": "Von der Heizungsmodernisierung bis zum neuen Bad planen und realisieren wir Haustechnik für Wohngebäude in Rain – mit kurzen Wegen und einem festen Ansprechpartner.",
+        "focus": "Modernisieren mit Plan",
+        "intro": "Rain verbindet gewachsene Ortskerne mit neuen Wohngebieten. Damit Heizung, Bad und Sanitärtechnik dauerhaft funktionieren, betrachten wir jedes Projekt vom Gebäude aus und stimmen die Gewerke sauber aufeinander ab.",
+        "benefit": "Kurze Wege aus dem Landkreis Donau-Ries, klare Planung und ein fester Ansprechpartner für Ihr Projekt.",
+        "faq": [
+            ("Ist Rain Teil Ihres Einsatzgebiets?", "Ja. Rain liegt nahe unserem Firmensitz in Harburg und gehört zu unserem regionalen Einsatzgebiet. Den genauen Umfang klären wir bei Ihrer Anfrage."),
+            ("Lohnt sich eine Wärmepumpe in meinem Haus?", "Das hängt von Gebäudezustand, Heizflächen und Wärmebedarf ab. Wir prüfen diese Punkte vor Ort und rechnen Ihnen die passende Lösung transparent durch."),
+            ("Übernehmen Sie die komplette Badsanierung?", "Ja. Wir koordinieren alle Gewerke von der Demontage bis zur Übergabe – Sie haben einen Ansprechpartner und einen Festpreis."),
+        ],
+    },
+    {
+        "slug": "haustechnik-oettingen",
+        "name": "Oettingen in Bayern",
+        "region": "Bayern",
+        "title": "Haustechnik Oettingen i. Bay. | Bad, Heizung & Solar",
+        "description": "Bad, Heizung, Wärmepumpe, Solar und Sanitär für Oettingen in Bayern. Persönliche Beratung vom SHK-Fachbetrieb aus Harburg im Landkreis Donau-Ries.",
+        "h1": "Bad und Heizung für Oettingen – sorgfältig modernisiert.",
+        "lead": "Für die historisch geprägten Wohngebäude und modernen Häuser in Oettingen entwickeln wir Haustechnik-Lösungen, die technisch passen und langfristig zuverlässig funktionieren.",
+        "focus": "Sorgfalt im Bestand",
+        "intro": "Gerade in Oettingen mit seinem charakteristischen Altstadtkern lohnt sich eine sorgfältige Bestandsaufnahme: Welche Leitungen bleiben, wie wird der Grundriss sinnvoll genutzt und welche Heizung passt zum Gebäude? Wir verbinden ehrliche Beratung mit sauberer Umsetzung.",
+        "benefit": "Bausubstanz respektieren, Technik sinnvoll erneuern und Kosten früh transparent machen.",
+        "faq": [
+            ("Betreuen Sie auch ältere Gebäude in Oettingen?", "Ja. Bei Bestandsgebäuden prüfen wir die vorhandene Technik genau und entwickeln eine Lösung, die zum Haus und zum Budget passt."),
+            ("Beraten Sie zur Förderung einer neuen Heizung?", "Ja. Wir kennen die aktuellen Förderprogramme und beziehen mögliche Zuschüsse von Anfang an in die Planung ein."),
+            ("Wie schnell bekomme ich einen Termin?", "Nach Ihrer Anfrage melden wir uns zeitnah und stimmen für passende Projekte einen Vor-Ort-Termin ab."),
+        ],
+    },
+    {
+        "slug": "haustechnik-augsburg",
+        "name": "Augsburg",
+        "region": "Bayern",
+        "title": "SHK-Fachbetrieb für Augsburg | Bad, Heizung & Wärmepumpe",
+        "description": "Badsanierung, Heizung, Wärmepumpe, Solar und Haustechnik für Augsburg und Umgebung. Geplant und umgesetzt von Donau-Ries Haustechnik aus Harburg.",
+        "h1": "Moderne Haustechnik für Augsburg und Umgebung.",
+        "lead": "Ob Stadthaus, Reihenhaus oder Wohnung: Wir planen Bad, Heizung und Haustechnik für Projekte in Augsburg strukturiert, sauber und mit einem festen Ansprechpartner.",
+        "focus": "Stadt und Umland zuverlässig betreut",
+        "intro": "In Augsburg und im Umland reichen die Anforderungen vom sanierten Altbau bis zum modernen Neubau. Wir planen nicht nach Schema F, sondern passend zu Gebäude, Nutzung und Budget – und koordinieren alle Gewerke über einen Ansprechpartner.",
+        "benefit": "Ein regionaler Fachbetrieb, der Planung und Umsetzung aus einer Hand übernimmt.",
+        "faq": [
+            ("Fahren Sie für Projekte nach Augsburg?", "Augsburg betreuen wir projektabhängig von unserem Firmensitz in Harburg aus. Senden Sie uns Ort und Vorhaben, dann prüfen wir Umfang und Termin direkt."),
+            ("Welche Leistungen bieten Sie in Augsburg an?", "Badsanierung, Heizungsmodernisierung, Wärmepumpe, Solar, Lüftung sowie Sanitär- und Haustechnik – auf Wunsch gemeinsam geplant."),
+            ("Kann ich Bad und Heizung zusammen modernisieren?", "Ja. Eine gemeinsame Planung reduziert Schnittstellen und macht den Bauablauf deutlich übersichtlicher."),
+        ],
+    },
+    {
+        "slug": "haustechnik-aalen",
+        "name": "Aalen",
+        "region": "Baden-Württemberg",
+        "title": "Haustechnik Aalen | Heizung, Wärmepumpe, Bad & Solar",
+        "description": "Heizung, Wärmepumpe, Badsanierung, Solar und Sanitär für Aalen in Baden-Württemberg. Regionaler SHK-Service vom Fachbetrieb aus Harburg.",
+        "h1": "Effiziente Haustechnik für Aalen.",
+        "lead": "Wir unterstützen Hausbesitzer in Aalen bei der energetischen Modernisierung, beim neuen Bad und bei zuverlässiger Sanitärtechnik – persönlich, strukturiert und regional.",
+        "focus": "Energie und Wohnkomfort zusammendenken",
+        "intro": "Eine neue Heizung wirkt sich auf mehr aus als den Energieverbrauch. Wärmeverteilung, Warmwasser, Lüftung und bei Bedarf Solar gehören als Gesamtsystem betrachtet. Für Projekte in Aalen planen wir deshalb vom Gebäude aus – nicht vom einzelnen Gerät.",
+        "benefit": "Heizung, Warmwasser, Solar und Sanitär technisch aufeinander abstimmen statt Einzellösungen zu sammeln.",
+        "faq": [
+            ("Liegt Aalen in Ihrem Einsatzgebiet?", "Aalen in Baden-Württemberg betreuen wir projektabhängig von Harburg aus. Fragen Sie Ihr Vorhaben kurz an, damit wir Termin und Umfang prüfen können."),
+            ("Planen Sie Wärmepumpen auch für Bestandsgebäude?", "Ja. Entscheidend sind Gebäudezustand, Heizflächen, Wärmebedarf und Nutzung – diese Punkte prüfen wir vor einer Empfehlung gemeinsam."),
+            ("Bieten Sie auch komplette Badsanierungen an?", "Ja. Wir planen und realisieren Badsanierungen aus einer Hand, inklusive Koordination aller Gewerke und transparentem Festpreis."),
+        ],
+    },
+    {
+        "slug": "haustechnik-heidenheim",
+        "name": "Heidenheim an der Brenz",
+        "region": "Baden-Württemberg",
+        "title": "SHK-Fachbetrieb Heidenheim | Bad, Heizung & Wärmepumpe",
+        "description": "Badsanierung, Heizung, Wärmepumpe, Lüftung und Haustechnik für Heidenheim an der Brenz. Regionaler SHK-Service mit Sitz in Harburg.",
+        "h1": "Haustechnik für Heidenheim – durchdacht und zuverlässig.",
+        "lead": "Vom komfortablen Bad bis zur effizienten Heizungsanlage planen wir technische Lösungen für Wohngebäude in Heidenheim mit klaren Abläufen und einem Ansprechpartner.",
+        "focus": "Komfort, Effizienz und saubere Umsetzung",
+        "intro": "Ob umfassende Sanierung oder gezielte Modernisierung – gute Haustechnik beginnt mit den richtigen Fragen: Wie wird das Gebäude genutzt, welche Technik ist vorhanden und welche Investition zahlt sich langfristig aus? Daraus entsteht eine belastbare Lösung für Ihr Projekt in Heidenheim.",
+        "benefit": "Beratung ohne Standardpaket, nachvollziehbare Entscheidungen und koordinierte Umsetzung bis zur Übergabe.",
+        "faq": [
+            ("Übernehmen Sie Projekte in Heidenheim?", "Heidenheim an der Brenz betreuen wir projektabhängig aus Harburg. Nach Ihrer Anfrage prüfen wir kurzfristig Umfang und Termin."),
+            ("Kann ich Bad und Heizung gemeinsam planen lassen?", "Ja. Bei einer größeren Modernisierung reduziert die gemeinsame Planung Schnittstellen und macht den Ablauf übersichtlicher."),
+            ("Bieten Sie auch Lüftungs- und Sanitärtechnik an?", "Ja. Neben Bad und Heizung gehören Wohnraumlüftung, Sanitärinstallation und weitere Haustechnik zu unserem Angebot."),
+        ],
+    },
+    {
+        "slug": "haustechnik-bopfingen",
+        "name": "Bopfingen",
+        "region": "Baden-Württemberg",
+        "title": "Haustechnik Bopfingen | Heizung, Bad, Wärmepumpe & Solar",
+        "description": "Heizung, Wärmepumpe, Bad, Solar und Sanitär für Bopfingen in Baden-Württemberg. Persönliche Beratung vom SHK-Fachbetrieb aus Harburg.",
+        "h1": "Haustechnik für Bopfingen – nah an der Region.",
+        "lead": "Direkt an der Grenze zu Bayern gelegen, ist Bopfingen für uns gut erreichbar. Wir planen Bad, Heizung und Haustechnik mit kurzen Wegen und einem festen Ansprechpartner.",
+        "focus": "Nah, persönlich, planbar",
+        "intro": "Bopfingen liegt unweit von Nördlingen und damit gut in unserem Einsatzbereich. Für Bestandsgebäude und moderne Wohnhäuser entwickeln wir Lösungen, die technisch passen, sauber aussehen und langfristig zuverlässig funktionieren.",
+        "benefit": "Gute Erreichbarkeit, ehrliche Beratung und eine koordinierte Umsetzung aus einer Hand.",
+        "faq": [
+            ("Ist Bopfingen Teil Ihres Einsatzgebiets?", "Ja. Bopfingen liegt nah an Nördlingen und ist für uns gut erreichbar. Den genauen Umfang klären wir bei Ihrer Anfrage."),
+            ("Beraten Sie zur passenden neuen Heizung?", "Ja. Wir betrachten Gebäude, Wärmebedarf und Nutzung, vergleichen geeignete Systeme und beziehen mögliche Förderungen ein."),
+            ("Ist eine Vor-Ort-Beratung möglich?", "Ja. Für passende Projekte vereinbaren wir einen Termin am Objekt und erstellen anschließend eine konkrete Planung."),
+        ],
+    },
 ]
 
 
@@ -135,8 +237,8 @@ def header() -> str:
   <a href="../kontaktformular/">Rückruf anfragen</a>
 </div>
 <header class="site-header">
-  <a class="brand" href="../"><span class="brand-mark">DR</span><span><strong>Donau-Ries</strong><small>Haustechnik GmbH</small></span></a>
-  <nav class="main-nav" aria-label="Hauptnavigation"><a href="../bad/">Bad</a><a href="../heizung/">Heizung</a><a href="../solar/">Solar</a><a href="../lueftung/">Lüftung</a><a href="../haustechnik/">Haustechnik</a><a href="../leistungen-gewerbekunden/">Gewerbe</a><a href="../unternehmen/">Unternehmen</a></nav>
+  <a class="brand" href="../"><img class="brand-logo" src="../assets/logo-hero.webp" alt="Donau-Ries Haustechnik"></a>
+  <nav class="main-nav" aria-label="Hauptnavigation"><a href="../">Home</a><div class="nav-dropdown"><button class="nav-dropdown-toggle" type="button" aria-expanded="false">Leistungen</button><div class="nav-dropdown-menu"><a href="../bad/">Bad</a><a href="../heizung/">Heizung</a><a href="../solar/">Solar</a><a href="../lueftung/">Lüftung</a><a href="../haustechnik/">Haustechnik</a></div></div><a href="../leistungen-gewerbekunden/">Gewerbe</a><a href="../unternehmen/">Unternehmen</a><a href="../blog/">Blog</a><a href="../kontaktformular/">Kontakt</a></nav>
   <div class="header-actions"><a class="header-phone" href="tel:+4990804317">09080 4317</a><a class="nav-cta" href="../kontaktformular/">Anfrage starten</a></div>
   <button class="nav-toggle" type="button" aria-label="Menü öffnen" aria-expanded="false"><span></span><span></span><span></span></button>
 </header>
@@ -158,7 +260,7 @@ def footer() -> str:
 </section>
 <footer class="footer">
   <div class="footer-grid">
-    <div><strong>Donau-Ries Haustechnik GmbH</strong><p>Ihr SHK-Fachbetrieb für Bad, Heizung, Solar und Lüftung mit Sitz in Harburg – regional im Einsatz.</p></div>
+    <div><img class="footer-logo" src="../assets/logo-white.png" alt="Donau-Ries Haustechnik"><p>Ihr SHK-Fachbetrieb für Bad, Heizung, Solar und Lüftung mit Sitz in Harburg – in Bayern und Baden-Württemberg im Einsatz.</p></div>
     <div><span>Leistungen</span><a href="../bad/">Bad</a><a href="../heizung/">Heizung</a><a href="../solar/">Solar</a><a href="../haustechnik/">Haustechnik</a><a href="../einsatzgebiet/">Einsatzgebiet</a></div>
     <div><span>Kontakt</span><a href="tel:+4990804317">09080 4317</a><a href="mailto:info@donau-ries-haustechnik.de">info@donau-ries-haustechnik.de</a><a href="https://maps.google.com/?q=Goethestra%C3%9Fe+1,+86655+Harburg" rel="noopener" target="_blank">Goethestraße 1, 86655 Harburg</a></div>
     <div><span>Rechtliches</span><a href="../kontaktformular/">Kontakt</a><a href="../impressum/">Impressum</a><a href="../datenschutz/">Datenschutz</a></div>
@@ -207,7 +309,7 @@ def city_page(city: dict[str, object]) -> str:
 <section class="section"><span class="kicker">Leistungen in {esc(city['name'])}</span><h2>Was wir für Ihr Zuhause planen und umsetzen.</h2><div class="service-grid">
   <a class="service-card" href="../bad/"><span>Komplett aus einer Hand</span><h3>Badsanierung</h3><p>Individuelle Badplanung, Komplettbad und barrierearme Lösungen mit klarer Koordination.</p></a>
   <a class="service-card" href="../heizung/"><span>Effizient modernisieren</span><h3>Heizung</h3><p>Passende Heiztechnik für Bestand und Neubau – inklusive Systemvergleich und Planung.</p></a>
-  <a class="service-card" href="../waermepumpe/"><span>Gebäude richtig prüfen</span><h3>Wärmepumpe</h3><p>Auslegung von Wärmequelle, Heizflächen und Warmwasser passend zu Ihrem Gebäude.</p></a>
+  <a class="service-card" href="../heizung/"><span>Gebäude richtig prüfen</span><h3>Wärmepumpe</h3><p>Auslegung von Wärmequelle, Heizflächen und Warmwasser passend zu Ihrem Gebäude.</p></a>
   <a class="service-card" href="../solar/"><span>Energie sinnvoll nutzen</span><h3>Solar</h3><p>Photovoltaik und Solar als durchdachter Baustein Ihrer Energie- und Haustechnik.</p></a>
   <a class="service-card" href="../lueftung/"><span>Gesundes Raumklima</span><h3>Lüftung</h3><p>Kontrollierte Wohnraumlüftung für Komfort, Feuchteschutz und Energieeffizienz.</p></a>
   <a class="service-card" href="../haustechnik/"><span>Zuverlässige Installation</span><h3>Sanitär &amp; Haustechnik</h3><p>Wassertechnik, Sanitärinstallation und technische Gebäudelösungen vom Fachbetrieb.</p></a>
@@ -221,10 +323,14 @@ def city_page(city: dict[str, object]) -> str:
 
 
 def hub_page() -> str:
-    cards = "".join(
-        f'<a class="service-card city-card" href="../{city["slug"]}/"><span>Bad · Heizung · Haustechnik</span><h3>{esc(city["name"])}</h3><p>{esc(city["benefit"])}</p></a>'
-        for city in CITIES
-    )
+    def cards_for(region: str) -> str:
+        return "".join(
+            f'<a class="service-card city-card" href="../{city["slug"]}/"><span>Bad · Heizung · Haustechnik</span><h3>{esc(city["name"])}</h3><p>{esc(city["benefit"])}</p></a>'
+            for city in CITIES
+            if city.get("region", "Bayern") == region
+        )
+    cards_bayern = cards_for("Bayern")
+    cards_bw = cards_for("Baden-Württemberg")
     hub_schema = {
         "@context": "https://schema.org",
         "@graph": [
@@ -232,7 +338,11 @@ def hub_page() -> str:
                 "@type": "CollectionPage",
                 "name": "Einsatzgebiet Donau-Ries Haustechnik",
                 "url": f"{DOMAIN}/einsatzgebiet/",
-                "description": "Regionales Einsatzgebiet für Bad, Heizung, Wärmepumpe, Solar und Haustechnik rund um Harburg.",
+                "description": "Einsatzgebiet für Bad, Heizung, Wärmepumpe, Solar und Haustechnik in Bayern und Baden-Württemberg, mit Firmensitz in Harburg.",
+                "about": [
+                    {"@type": "AdministrativeArea", "name": "Bayern"},
+                    {"@type": "AdministrativeArea", "name": "Baden-Württemberg"},
+                ],
             },
             {
                 "@type": "BreadcrumbList",
@@ -245,15 +355,16 @@ def hub_page() -> str:
     }
     body = f"""
 <nav class="breadcrumbs" aria-label="Brotkrümelnavigation"><a href="../">Start</a><span>›</span><span>Einsatzgebiet</span></nav>
-<section class="page-hero local-hero" style="background-image:linear-gradient(90deg, rgba(37,60,140,.92) 0%, rgba(37,60,140,.62) 50%, rgba(37,60,140,.28) 100%), url('../assets/images/hero-haustechnik.jpg')"><div class="hero-copy"><span class="kicker">Regionaler SHK-Fachbetrieb</span><h1>Bad, Heizung und Haustechnik rund um Harburg.</h1><p>Von unserem Firmensitz in Harburg betreuen wir ausgewählte Projekte in der Region Donau-Ries und den angrenzenden Städten – persönlich, planbar und aus einer Hand.</p><div class="hero-actions"><a class="button primary" href="../kontaktformular/">Einsatzort anfragen</a><a class="button ghost" href="tel:+4990804317">09080 4317</a></div></div></section>
-<section class="section intro-grid"><div><span class="kicker">Unser Einsatzgebiet</span><h2>Regional erreichbar, ohne anonyme Außenstellen.</h2></div><p>Unser Betrieb sitzt in Harburg. Die folgenden Seiten zeigen, welche Leistungen wir in den umliegenden Städten anbieten und welche Themen dort besonders häufig relevant sind. Ob Ihr konkretes Projekt in unseren Einsatzplan passt, klären wir schnell und persönlich.</p></section>
-<section class="section"><span class="kicker">Städte in der Region</span><h2>Wo wir für Sie im Einsatz sind.</h2><div class="service-grid local-city-grid">{cards}</div></section>
+<section class="page-hero local-hero" style="background-image:linear-gradient(90deg, rgba(37,60,140,.92) 0%, rgba(37,60,140,.62) 50%, rgba(37,60,140,.28) 100%), url('../assets/images/hero-haustechnik.jpg')"><div class="hero-copy"><span class="kicker">Regionaler SHK-Fachbetrieb</span><h1>Haustechnik in Bayern &amp; Baden-Württemberg.</h1><p>Mit Firmensitz in Harburg (Schwaben) sind wir in Bayern und Baden-Württemberg weit im Einsatz – von der Region Donau-Ries bis nach Ostwürttemberg, persönlich und aus einer Hand.</p><div class="hero-actions"><a class="button primary" href="../kontaktformular/">Einsatzort anfragen</a><a class="button ghost" href="tel:+4990804317">09080 4317</a></div></div></section>
+<section class="section intro-grid"><div><span class="kicker">Unser Einsatzgebiet</span><h2>In Bayern und Baden-Württemberg unterwegs.</h2></div><p>Unser Firmensitz ist in Harburg (Schwaben). Von dort sind wir in ganz Bayern und Baden-Württemberg im Einsatz – von der Region Donau-Ries über das schwäbische Umland bis nach Ostwürttemberg. Ob Ihr konkretes Projekt in unseren Einsatzplan passt, klären wir schnell und persönlich.</p></section>
+<section class="section"><span class="kicker">Standorte in Bayern</span><h2>Im Raum Donau-Ries und Schwaben.</h2><div class="service-grid local-city-grid">{cards_bayern}</div></section>
+<section class="section"><span class="kicker">Standorte in Baden-Württemberg</span><h2>In Ostwürttemberg und Umgebung.</h2><div class="service-grid local-city-grid">{cards_bw}</div></section>
 <section class="section feature-layout"><div><span class="kicker">Projektabhängige Anfahrt</span><h2>Die richtige Lösung beginnt mit einer kurzen Anfrage.</h2><p>Entfernung allein entscheidet nicht. Projektumfang, Leistung und Termin müssen sinnvoll zusammenpassen. Senden Sie uns deshalb Ort und Vorhaben – wir sagen Ihnen offen, ob und wann wir helfen können.</p></div><div class="feature-panel"><h3>Bitte direkt mitsenden</h3><ul><li>Ort und Postleitzahl des Projekts</li><li>Gewünschte Leistung: Bad, Heizung, Solar oder Haustechnik</li><li>Bestand, Neubau oder geplante Sanierung</li><li>Gewünschter Zeitraum</li></ul></div></section>
 <section class="cta-band"><div><span class="kicker">Schnelle Standortprüfung</span><h2>Ist Ihr Ort nicht aufgeführt?</h2><p>Fragen Sie trotzdem kurz an – wir prüfen den Einsatz projektabhängig.</p></div><a class="button light" href="../kontaktformular/">Projekt und Ort senden</a></section>
 """
     return page_shell(
-        "Einsatzgebiet | SHK-Fachbetrieb rund um Harburg & Donau-Ries",
-        "Unser Einsatzgebiet für Bad, Heizung, Wärmepumpe, Solar und Haustechnik: Harburg, Donauwörth, Nördlingen, Dillingen und Neuburg.",
+        "Einsatzgebiet | SHK-Fachbetrieb in Bayern & Baden-Württemberg",
+        "Unser Einsatzgebiet für Bad, Heizung, Wärmepumpe, Solar und Haustechnik: Harburg, Donauwörth, Nördlingen, Augsburg, Aalen, Heidenheim und weitere Orte in Bayern und Baden-Württemberg.",
         f"{DOMAIN}/einsatzgebiet/",
         body,
         hub_schema,

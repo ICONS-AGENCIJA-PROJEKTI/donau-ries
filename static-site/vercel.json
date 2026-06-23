@@ -4,952 +4,952 @@
                       {
                           "source":  "/3d-planer-danke/",
                           "destination":  "/kontaktformular/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/bad-aus-einer-hand/",
                           "destination":  "/bad/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/bad-zum-festpreis/",
                           "destination":  "/bad/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/badinspiration-musterbaeder/",
                           "destination":  "/bad/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/badplanung/",
                           "destination":  "/bad/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/badsanierung-premiumbad-ideen/",
                           "destination":  "/bad/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/badsanierung/",
                           "destination":  "/bad/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/barrierefreies-bad/",
                           "destination":  "/bad/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/barrierefreiheitserklaerung/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/bhkw/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/budgetkalkulator-bad-ihr-ergebnis/",
                           "destination":  "/bad/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/budgetkalkulator-bad-thank-you/",
                           "destination":  "/bad/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/budgetkalkulator-bad-uebersicht/",
                           "destination":  "/bad/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/danke-ausbildung-shk/",
                           "destination":  "/kontaktformular/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/danke-bad-5000-euro/",
                           "destination":  "/bad/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/danke-badkonfigurator-2/",
                           "destination":  "/bad/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/danke-badsanierung-premiumbad/",
                           "destination":  "/bad/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/danke-broetje-gasheizung/",
                           "destination":  "/heizung/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/danke-dusch-wc/",
                           "destination":  "/bad/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/danke-duschabtrennung/",
                           "destination":  "/bad/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/danke-foerderung-heizung/",
                           "destination":  "/heizung/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/danke-heizung/",
                           "destination":  "/heizung/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/danke-jobs-shk/",
                           "destination":  "/kontaktformular/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/danke-kontaktformular/",
                           "destination":  "/kontaktformular/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/danke-pelletheizung/",
                           "destination":  "/heizung/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/danke-photovoltaik-angebot/",
                           "destination":  "/kontaktformular/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/danke-samsung-waermepumpe/",
                           "destination":  "/heizung/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/danke-waermepumpe-angebot/",
                           "destination":  "/heizung/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/dezentrale-wohnraumlueftung/",
                           "destination":  "/lueftung/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/downloads/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/entkalkung/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/fluessiggas/",
                           "destination":  "/heizung/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/foerderung-bad/",
                           "destination":  "/bad/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/foerderung/",
                           "destination":  "/heizung/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/freshup-im-bad/",
                           "destination":  "/bad/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/heizen-mit-holz/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/heizsysteme/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/heizungskonfigurator/",
                           "destination":  "/heizung/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/heizungsmodernisierung/",
                           "destination":  "/heizung/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ihr-badplaner/",
                           "destination":  "/bad/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/installation/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/objekt-u-anlagenbau/",
                           "destination":  "/leistungen-gewerbekunden/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/oel-gasheizung/",
                           "destination":  "/heizung/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_aktionsflaeche/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_jobs/",
                           "destination":  "/jobs/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_kampagne/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_slides/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/regen-und-grauwassernutzung/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/sanitaeranlagen/",
                           "destination":  "/leistungen-gewerbekunden/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/staubsaugeranlage/",
                           "destination":  "/leistungen-gewerbekunden/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/unsere-partner/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/waermepumpe/",
                           "destination":  "/heizung/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/wand-und-fussbodenheizung/",
                           "destination":  "/heizung/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/author/admin/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/category/bad/",
                           "destination":  "/bad/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/category/gasvertrieb/",
                           "destination":  "/heizung/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/category/haustechnik/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/category/heizsysteme/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/category/heizung/",
                           "destination":  "/heizung/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/category/kaeltetechnik/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/category/kueche/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/category/lueftung/",
                           "destination":  "/lueftung/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/category/sanitaer/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/category/sanitaeranlagen/",
                           "destination":  "/leistungen-gewerbekunden/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/category/waerme/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/category/wasser/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_aktionsflaeche/badinspiration/",
                           "destination":  "/bad/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_aktionsflaeche/barrierefreiheit-mit-system/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_aktionsflaeche/bette-freshup/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_aktionsflaeche/elementsdefault/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_aktionsflaeche/foerderung-4-6-pdf/",
                           "destination":  "/heizung/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_aktionsflaeche/foerderung/",
                           "destination":  "/heizung/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_aktionsflaeche/googlemaps/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_aktionsflaeche/kompetente-beratung/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_aktionsflaeche/kueco/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_aktionsflaeche/osteraktion/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_aktionsflaeche/trinkwasserhygiene/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_aktionsflaeche/weihnachtsaktionsflaeche-4/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/4balance-von-sanipa-bringt-natuerliche-balance-ins-bad/",
                           "destination":  "/bad/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/axent-one-dusch-wc/",
                           "destination":  "/bad/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/bad-mit-einbaucharakter-lin20-von-burgbad/",
                           "destination":  "/bad/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/barbie-hewi/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/barrierefreies-bad-elements/",
                           "destination":  "/bad/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/bette_air/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/bette_level_duscheinbau/",
                           "destination":  "/bad/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/betteflat-normgerechte-duschflaeche-fuer-das-barrierefreie-bad/",
                           "destination":  "/bad/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/blw-mono-von-broetje-passt-immer-einzigartig-sicher-und-einfach-installiert/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/bosch-einfach-perfektes-raumklima/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/bosch-infrarotheizung-4000p/",
                           "destination":  "/heizung/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/bosch-waermepumpe-compress-7400i/",
                           "destination":  "/heizung/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/bosch_luftreiniger-air4000/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/bosch_power-charge7000i/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/broetje_kit65/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/broetje_waermepumpe_eco1/",
                           "destination":  "/heizung/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/burgbad-fiumo2-0/",
                           "destination":  "/bad/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/burgbad-moto/",
                           "destination":  "/bad/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/burgbad_cleanflow/",
                           "destination":  "/bad/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/burgbad_eqio/",
                           "destination":  "/bad/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/burgbad_magic-twist/",
                           "destination":  "/bad/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/burgbad_sys30/",
                           "destination":  "/bad/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/conel-clear-pro-trinkwasseraufbereitung/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/die-echtholzkollektion-max-von-burgbad-weniger-ist-mehr/",
                           "destination":  "/bad/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/die-kombiheizung-fuer-pellets-und-holz/",
                           "destination":  "/heizung/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/digitale-brausearmatur-hansaactivejet/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/duka-black-edition-duschen-in-schwarz/",
                           "destination":  "/bad/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/dusch-wc-nachruesten/",
                           "destination":  "/bad/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/ess-compact-30-ff-die-flachste-duschrinne-am-markt/",
                           "destination":  "/bad/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/exklusive_badkollektion_bme_burgbad/",
                           "destination":  "/bad/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/gas-hybridheizung/",
                           "destination":  "/heizung/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/geberit-acanto-badserie/",
                           "destination":  "/bad/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/geberit-aquaclean-alba/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/geberit-cleanline50-sigma70/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/geberit-hochwasser-in-deutschland/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/geberit-mix-match/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/gessi-316/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/gessi-inverso/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/gessi-ventaglio-2/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/gessi-via-meravigli-emporio-2/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/gessi-vita/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/grohe-blue-sprudelgenuss-direkt-aus-der-armatur/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/grundfos-comfort-trinkwarmwasserzirkulationspumpe/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/grundfos-hauswasserwerk/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/grundfos-heizungspumpentausch/",
                           "destination":  "/heizung/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/grundfos-scala-gartenpumpe/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/grundfos-scala2/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/grundfos_heizungsumwaelzpumpe/",
                           "destination":  "/heizung/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/grundfos_multibox/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/grundfos_sololift2-abwasserpumpen/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/hansa-contemporary-kitchen/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/hansaaurelia/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/hansaelectra/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/hansagenesis/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/hansastela-2-0-die-neuen-hingucker-im-designstarken-badezimmer/",
                           "destination":  "/bad/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/hansavantis-style/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/hansaviva_hansaoptima/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/kaldewei-flowline/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/kaldewei-flowpoint/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/kaldewei-invisiblegrip/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/kaldewei-oyo-duo/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/kaldewei-puro-next/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/kaldewei-whirlpoolwannen/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/kermi-individuelle-farbgestaltung-duschkabinen/",
                           "destination":  "/bad/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/kermi-nobel-duschen-mit-mena/",
                           "destination":  "/bad/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/kermi-pures-duschgefuehl-mit-nica/",
                           "destination":  "/bad/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/keuco-black-selection/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/keuco-blue/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/keuco-edition11art/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/keuco-ixmo-100-elements/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/keuco-phoenix/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/keuco-plan-sensorspender/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/keuco-royal-lumos-spiegelschrank/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/keuco-somaris/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/keuco_axess/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/kludi-decus-souna-renon/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/kludi-e-go/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/kludi-kuechenarmaturen/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/kludi-nova-fonte-pura-waschtischarmatur/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/kludi-nova-fonte/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/kludi-renon/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/kwc-luna-e-ein-kuechen-klassiker/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/ludi-pushtronic-undkludi-touchtronic/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/mattschwarze_hingucker_fuer-bad_kueche_hansa/",
                           "destination":  "/bad/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/mehr-als-nur-eine-heizung-wohlfuehlfaktor-fussbodenheizung/",
                           "destination":  "/heizung/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/nobili-dress/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/novelan-helox/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/novelan-jabbah/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/novellini-ship-badewanne/",
                           "destination":  "/bad/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/polaris-waermepumpe-novelan/",
                           "destination":  "/heizung/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/regenwassernutzung_grundfos/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/rehau-kuehl-und-heizdecke/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/rehau-mepa-air-wc/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/rehau-mepa-betaetigungsplatten/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/rehau-rauthermneo-x5/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/rehau-reguard2/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/rehau-sauberes-trinkwasser-direk-aus-der-leitung/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/rehau_rautitan-flex-green/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/rehau_reguard_wassersicherheitssystem/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/schedel-duschflaeche/",
                           "destination":  "/bad/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/sinea-3-0-von-burgbad-soft-minimalism-fu%cc%88r-das-moderne-bad/",
                           "destination":  "/bad/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/toto-dusch-wc/",
                           "destination":  "/bad/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/turboflush-spueltechnik-_wc_acanto_geberit/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/vigour-derby-aquawash/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/vigour-individual-grace/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/vigour-vogue-doppelwaschtischschale/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/vigour_smart/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/vigour_white_2023/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/was-ist-eigentlich-ein-washlet/",
                           "destination":  "/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/wassersparen-imbadezimmer/",
                           "destination":  "/bad/",
-                          "permanent":  true
+                          "statusCode":  301
                       },
                       {
                           "source":  "/ph_news/worauf-es-beim-kauf-eines-dusch-wcs-ankommt/",
                           "destination":  "/bad/",
-                          "permanent":  true
+                          "statusCode":  301
                       }
                   ]
 }

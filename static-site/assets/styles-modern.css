@@ -978,3 +978,66 @@ textarea { min-height: 130px; resize: vertical; }
     box-shadow: 0 8px 22px rgba(16, 37, 43, .18);
   }
 }
+
+/* ============================================================
+   MODERN REFRESH 2026 — weichere Rundungen, mehrschichtige
+   Schatten, sanfte Mikro-Interaktionen. Append-Override:
+   modernisiert die Optik, ohne den seriösen Bau-Charakter zu
+   verlieren. Hier zentral anpassbar.
+   ============================================================ */
+:root {
+  --radius-sm: 10px;
+  --radius: 14px;
+  --radius-lg: 20px;
+  --shadow: 0 2px 4px rgba(16, 37, 43, .04), 0 10px 28px rgba(16, 37, 43, .07);
+  --shadow-lg: 0 8px 18px rgba(16, 37, 43, .08), 0 26px 50px rgba(16, 37, 43, .13);
+  --ease: .28s cubic-bezier(.4, 0, .2, 1);
+}
+
+/* Lesbarkeit: etwas mehr Zeilenluft (wichtig für die Zielgruppe) */
+p { line-height: 1.72; }
+
+/* Buttons – abgerundet & taktil */
+.nav-cta, .button {
+  border-radius: var(--radius-sm);
+  transition: transform var(--ease), box-shadow var(--ease), background var(--ease), border-color var(--ease), color var(--ease);
+}
+.nav-cta, .button.primary { box-shadow: 0 6px 16px rgba(214, 163, 52, .30); }
+.nav-cta:hover, .button.primary:hover { transform: translateY(-2px); box-shadow: 0 11px 24px rgba(214, 163, 52, .40); }
+.button.ghost:hover, .button.light:hover { transform: translateY(-2px); box-shadow: var(--shadow); border-color: var(--teal); }
+
+/* Pills / Tags */
+.trust-row span, .related a { border-radius: 999px; }
+.related a { transition: transform var(--ease), border-color var(--ease), box-shadow var(--ease), background var(--ease), color var(--ease); }
+.related a:hover { transform: translateY(-2px); border-color: var(--teal); box-shadow: var(--shadow); }
+
+/* Karten & Panels – weiche Ecken */
+.service-card, .detail-cards article, .steps > div, .feature-panel,
+.faq-item, .floating-card, .cfab-opt, form, .contact-logo-box,
+.local-link-grid a, .nav-dropdown-menu { border-radius: var(--radius); }
+.service-card:hover, .local-link-grid a:hover { box-shadow: var(--shadow-lg); border-color: var(--teal); }
+.faq-item { transition: box-shadow var(--ease), border-color var(--ease), transform var(--ease); }
+.faq-item:hover { border-color: var(--teal); box-shadow: var(--shadow); }
+
+/* Formularfelder – modern mit Fokus-Ring */
+input, textarea { border-radius: var(--radius-sm); transition: border-color var(--ease), box-shadow var(--ease); }
+input:focus, textarea:focus { outline: none; border-color: var(--teal); box-shadow: 0 0 0 3px rgba(37, 60, 140, .14); }
+
+/* Medien & große Flächen */
+.hero-media, .sub-hero > img, .media-split img { border-radius: var(--radius-lg); }
+.gallery-grid figure, .logo-item, .contact-fab-toggle { border-radius: var(--radius); }
+.cta-band { border-radius: var(--radius-lg); }
+.mobile-action { border-radius: var(--radius-sm); }
+.process { border-radius: var(--radius-lg); box-shadow: var(--shadow); }
+
+/* Strips/Gitter mit Innen-Linien: nur die Außenkanten abrunden */
+.proof-strip div:first-child { border-top-left-radius: var(--radius); border-bottom-left-radius: var(--radius); }
+.proof-strip div:last-child { border-top-right-radius: var(--radius); border-bottom-right-radius: var(--radius); }
+.stats-grid, .leistungen-grid { border-radius: var(--radius); overflow: hidden; }
+
+/* Mobil: Service-Card-Icons mittig (passend zum zentrierten Text) */
+@media (max-width: 640px) {
+  .service-card::before { margin-left: auto; margin-right: auto; }
+  .leistungen-grid a { align-items: center; text-align: center; }
+}
+

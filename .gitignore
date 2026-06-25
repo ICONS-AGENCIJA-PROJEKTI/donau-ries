@@ -1,6 +1,14 @@
 # Internal reference — never publish
 placeholder-archive/
 
+# Raw downloaded source images (only optimized versions go to static-site)
+Bilder-Magnific/
+
+# Internal agency working docs (strategy/pricing, competitor analysis) — keep local
+STRATEGIE-WARTUNG-ANGEBOT.md
+KONKURRENZ-ANALYSE.md
+BILDER-SUCHBEGRIFFE.md
+
 # Node / npm
 node_modules/
 

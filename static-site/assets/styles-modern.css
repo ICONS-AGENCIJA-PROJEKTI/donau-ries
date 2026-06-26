@@ -207,7 +207,7 @@ article a:hover, .section p a:hover, .legal a:hover { color: var(--teal-dark); }
 }
 .header-phone::before { content: "\260E"; font-size: 17px; }
 .header-phone:hover { color: var(--teal); }
-.nav-cta, .button.primary { background: var(--gold); color: #17252a; }
+.nav-cta, .button.primary { background: var(--gold); color: #fff; text-shadow: 0 1px 2px rgba(0, 0, 0, .32); }
 .button.ghost { background: #fff; border-color: var(--line); color: var(--teal-dark); }
 .button.light { background: #fff; color: var(--teal-dark); }
 .hero, .sub-hero {
@@ -238,8 +238,8 @@ h1, h2, h3 {
 }
 h1 {
   margin-bottom: 20px;
-  font-size: clamp(40px, 5.4vw, 70px);
-  line-height: 1.04;
+  font-size: clamp(34px, 4.4vw, 54px);
+  line-height: 1.06;
   letter-spacing: -.015em;
 }
 .sub-hero {
@@ -249,8 +249,8 @@ h1 {
 }
 .sub-hero h1 {
   max-width: 680px;
-  font-size: clamp(40px, 5vw, 62px);
-  line-height: 1.02;
+  font-size: clamp(32px, 4vw, 48px);
+  line-height: 1.05;
 }
 .sub-hero p {
   max-width: 620px;
@@ -337,12 +337,12 @@ p { color: var(--muted); font-size: 18px; }
   align-items: center;
   max-width: none;
   margin: 0;
-  min-height: 92vh;
+  min-height: 90vh;
   padding: clamp(90px, 16vh, 170px) clamp(18px, 7vw, 110px);
   color: #fff;
   background-image:
     linear-gradient(90deg, rgba(37, 60, 140, .9) 0%, rgba(37, 60, 140, .62) 42%, rgba(37, 60, 140, .28) 100%),
-    url("images/hero-home.jpg");
+    url("images/hero-firma.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -362,7 +362,7 @@ p { color: var(--muted); font-size: 18px; }
     padding-right: 18px;
     background-image:
       linear-gradient(180deg, rgba(37, 60, 140, .78) 0%, rgba(37, 60, 140, .62) 100%),
-      url("images/hero-home.jpg");
+      url("images/hero-firma.jpg");
   }
 }
 
@@ -858,7 +858,7 @@ textarea { min-height: 130px; resize: vertical; }
   cursor: pointer;
   box-shadow: var(--shadow);
 }
-.contact-fab-toggle svg { width: 26px; height: 26px; stroke: #17252a; fill: none; stroke-width: 1.8; }
+.contact-fab-toggle svg { width: 26px; height: 26px; stroke: #fff; fill: none; stroke-width: 1.9; filter: drop-shadow(0 1px 1px rgba(0, 0, 0, .3)); }
 .contact-fab-toggle .icon-close { display: none; }
 .contact-fab[data-open] .contact-fab-toggle .icon-open { display: none; }
 .contact-fab[data-open] .contact-fab-toggle .icon-close { display: inline; }
@@ -962,18 +962,42 @@ textarea { min-height: 130px; resize: vertical; }
   .hero, .sub-hero, .intro-grid, .feature-layout, .contact-section { grid-template-columns: 1fr; }
   .service-grid, .steps, .footer-grid, .proof-strip, .detail-cards { grid-template-columns: 1fr; }
   .proof-strip { margin-top: 0; }
-  .proof-strip div, .proof-strip div:first-child, .proof-strip div:last-child { border-radius: 0; }
+  .proof-strip div, .proof-strip div:first-child, .proof-strip div:last-child { border-radius: var(--radius); }
 }
 @media (max-width: 640px) {
   .utility { display: none; }
-  h1 { font-size: 40px; }
+  h1 { font-size: 31px; line-height: 1.12; }
   .hero, .sub-hero, .section { padding-left: 16px; padding-right: 16px; }
   .cta-band { margin-left: 16px; margin-right: 16px; flex-direction: column; align-items: center; text-align: center; }
   /* Center content on mobile */
   .hero-copy, .section, .intro-grid, .intro-grid > div, .leistungen-band, .media-split > div, .partners { text-align: center; }
-  .hero-actions, .trust-row, .media-split .hero-actions { justify-content: center; }
-  .feature-panel, .faq-item, .footer-grid, .footer-bottom { text-align: left; }
+  .hero-actions, .trust-row, .media-split .hero-actions, .related div, .detail-cards .hero-actions, .reviews-summary, .review-card figcaption { justify-content: center; }
+  .proof-strip div { justify-content: flex-start; }
+  .feature-panel, .faq-item { text-align: left; }
   .feature-panel ul { display: inline-block; text-align: left; }
+
+  /* Footer komplett zentriert */
+  .footer-grid { text-align: center; }
+  .footer-grid > div { display: flex; flex-direction: column; align-items: center; }
+  .footer-logo { margin-left: auto; margin-right: auto; }
+  .footer-bottom { flex-direction: column; align-items: center; text-align: center; gap: 8px; }
+
+  /* Bilder vollständig anzeigen (kein Beschnitt) */
+  .gallery-grid img { height: auto; }
+  .media-split img { min-height: 0; height: auto; }
+
+  /* Hero-/Slogan-Hintergründe auf Mobil: Bild mit Text, mittig ausgerichtet */
+  .hero.hero-full { min-height: 90vh; padding: 72px 18px; background-position: 72% 66%; }
+  .hero.hero-full .trust-row { margin-top: 24px; }
+  .page-hero, .local-hero { min-height: 56vh; background-position: center; }
+  .slogan-band { min-height: 46vh; background-position: center; }
+
+  /* Kontaktseite: Hero & Infos zentriert */
+  .sub-hero, .sub-hero > div { text-align: center; }
+  .sub-hero .hero-actions { justify-content: center; }
+  .contact-list { justify-items: center; }
+  .contact-list li { align-items: center; }
+  .contact-section table { margin-left: auto; margin-right: auto; }
   .mobile-action {
     position: fixed;
     left: 14px;
@@ -985,7 +1009,8 @@ textarea { min-height: 130px; resize: vertical; }
     padding: 11px 14px;
     border-radius: 0;
     background: var(--gold);
-    color: #17252a;
+    color: #fff;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .32);
     font-weight: 600;
     font-size: 15px;
     text-decoration: none;
@@ -1053,5 +1078,49 @@ input:focus, textarea:focus { outline: none; border-color: var(--teal); box-shad
 @media (max-width: 640px) {
   .service-card::before { margin-left: auto; margin-right: auto; }
   .leistungen-grid a { align-items: center; text-align: center; }
+}
+
+/* Kundenbewertungen (Google) */
+.reviews-summary { display: flex; align-items: center; gap: 12px; margin-top: 12px; flex-wrap: wrap; }
+.reviews-summary .reviews-stars { color: #fbbc04; font-size: 24px; letter-spacing: 2px; }
+.reviews-summary strong { font-family: "Playfair Display", Georgia, serif; font-size: 30px; line-height: 1; color: var(--teal-dark); }
+.reviews-summary span:last-child { color: var(--muted); font-size: 15px; }
+.reviews-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; margin-top: 28px; }
+.review-card { display: flex; flex-direction: column; gap: 14px; margin: 0; padding: 26px; background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); transition: box-shadow var(--ease), transform var(--ease); }
+.review-card:hover { box-shadow: var(--shadow-lg); transform: translateY(-3px); }
+.review-card .review-stars { color: #fbbc04; font-size: 18px; letter-spacing: 2px; }
+.review-card blockquote { margin: 0; font-size: 16.5px; line-height: 1.65; color: var(--ink); }
+.review-card figcaption { display: flex; align-items: center; gap: 12px; margin-top: auto; padding-top: 4px; }
+.review-avatar { display: flex; align-items: center; justify-content: center; width: 44px; height: 44px; border-radius: 50%; background: var(--teal); color: #fff; font-weight: 700; font-size: 18px; flex: 0 0 auto; }
+.review-name { display: flex; flex-direction: column; font-weight: 700; color: var(--ink); line-height: 1.3; }
+.review-name small { font-weight: 500; color: var(--muted); font-size: 13px; }
+@media (max-width: 760px) { .reviews-grid { grid-template-columns: 1fr; } }
+
+/* Slogan-Band (Vollbild mit Hintergrundbild) */
+.slogan-band {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 58vh;
+  padding: clamp(72px, 12vw, 150px) clamp(18px, 6vw, 80px);
+  color: #fff;
+  background-image: linear-gradient(180deg, rgba(16, 37, 43, .58), rgba(37, 60, 140, .74)), url("images/slogan-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.slogan-band .kicker { color: var(--gold); }
+.slogan-band h2 { margin: 14px 0 18px; font-size: clamp(38px, 6.2vw, 70px); line-height: 1.04; color: #fff; }
+.slogan-band p { max-width: 640px; font-size: 19px; line-height: 1.6; color: rgba(255, 255, 255, .92); }
+@media (max-width: 820px) { .slogan-band { background-attachment: scroll; } }
+@media (prefers-reduced-motion: reduce) { .slogan-band { background-attachment: scroll; } }
+
+/* Mobil: kompakterer Zeilenabstand bei Fließtext */
+@media (max-width: 640px) {
+  p { line-height: 1.55; }
+  .hero-full p, .page-hero p, .sub-hero p { line-height: 1.5; }
 }
 

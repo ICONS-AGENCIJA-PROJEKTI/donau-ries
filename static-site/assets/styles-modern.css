@@ -657,12 +657,12 @@ p { color: var(--muted); font-size: 18px; }
   max-width: 160px;
   max-height: 62px;
   object-fit: contain;
-  filter: grayscale(1);
-  opacity: .78;
-  transition: filter .2s ease, opacity .2s ease, transform .2s ease;
+  filter: none;
+  opacity: 1;
+  transition: transform .2s ease;
 }
-.logo-item:hover img { filter: grayscale(0); opacity: 1; transform: scale(1.04); }
-.logo-item img.logo-keuco { filter: brightness(0) saturate(100%); opacity: .82; }
+.logo-item:hover img { transform: scale(1.06); }
+.logo-item img.logo-keuco { filter: brightness(0) saturate(100%); opacity: 1; }
 .logo-item:hover img.logo-keuco { filter: brightness(0) saturate(100%); opacity: 1; }
 @keyframes logo-scroll { from { transform: translateX(0); } to { transform: translateX(-50%); } }
 @media (max-width: 640px) {

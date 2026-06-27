@@ -1,6 +1,18 @@
 {
     "trailingSlash":  true,
     "redirects":  [
+                      { "source": "/haustechnik-neuburg-donau/", "destination": "/einsatzgebiet/", "statusCode": 307 },
+                      { "source": "/haustechnik-rain/", "destination": "/einsatzgebiet/", "statusCode": 307 },
+                      { "source": "/haustechnik-oettingen/", "destination": "/einsatzgebiet/", "statusCode": 307 },
+                      { "source": "/haustechnik-augsburg/", "destination": "/einsatzgebiet/", "statusCode": 307 },
+                      { "source": "/haustechnik-aalen/", "destination": "/einsatzgebiet/", "statusCode": 307 },
+                      { "source": "/haustechnik-heidenheim/", "destination": "/einsatzgebiet/", "statusCode": 307 },
+                      { "source": "/haustechnik-bopfingen/", "destination": "/einsatzgebiet/", "statusCode": 307 },
+                      { "source": "/haustechnik-ulm/", "destination": "/einsatzgebiet/", "statusCode": 307 },
+                      { "source": "/haustechnik-ingolstadt/", "destination": "/einsatzgebiet/", "statusCode": 307 },
+                      { "source": "/haustechnik-nuernberg/", "destination": "/einsatzgebiet/", "statusCode": 307 },
+                      { "source": "/haustechnik-muenchen/", "destination": "/einsatzgebiet/", "statusCode": 307 },
+                      { "source": "/haustechnik-stuttgart/", "destination": "/einsatzgebiet/", "statusCode": 307 },
                       {
                           "source":  "/3d-planer-danke/",
                           "destination":  "/kontaktformular/",

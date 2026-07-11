@@ -8,15 +8,30 @@ document.querySelectorAll("[data-supabase-form]").forEach((form) => {
     const notice = form.querySelector("[data-form-notice]");
     const button = form.querySelector('button[type="submit"]');
 
+    // B2B-Felder sauber in die vorhandenen Spalten packen (name/email/message):
+    // Ansprechpartner -> name, die Qualifizierungsfelder in message vorangestellt.
+    const parts = [];
+    const add = (label, el) => {
+      const v = el?.value.trim();
+      if (v) parts.push(label + ": " + v);
+    };
+    add("Firma", form.firma);
+    add("Rolle", form.rolle);
+    add("Projekttyp", form.projekttyp);
+    add("Umfang/Volumen", form.umfang);
+    add("Telefon", form.telefon);
+    const beschreibung = form.message?.value.trim() || "";
+    const message = (parts.length ? parts.join("\n") + "\n\n" : "") + beschreibung;
+
     const payload = {
-      name: form.name?.value.trim() || null,
+      name: form.ansprechpartner?.value.trim() || null,
       email: form.email?.value.trim() || null,
-      message: form.message?.value.trim() || null,
+      message: message || null,
       source_page: location.pathname,
     };
 
-    if (!payload.email && !payload.message) {
-      if (notice) notice.textContent = "Bitte fuellen Sie das Formular aus.";
+    if (!payload.email || !form.firma?.value.trim()) {
+      if (notice) notice.textContent = "Bitte fuellen Sie die Pflichtfelder aus.";
       return;
     }
 

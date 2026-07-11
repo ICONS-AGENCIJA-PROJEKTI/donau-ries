@@ -33,3 +33,11 @@ desktop.ini
 .env*.local
 
 .vercel
+
+# Claude Code local settings
+.claude/
+
+# Local source/backup images (not for deploy)
+static-site/assets/images/*.backup.jpg
+static-site/assets/images/tece-logo-250x250.png
+static-site/assets/images/Moderne Hausfassade mit Technikern im Fokus.png

@@ -433,11 +433,13 @@ p { color: var(--muted); font-size: 18px; }
 .proof-strip div {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 14px;
   min-height: 86px;
   padding: 18px 22px;
   background: #fff;
   border: 1px solid var(--line);
+  text-align: left;
 }
 .proof-strip div:first-child { border-radius: 0; }
 .proof-strip div:last-child { border-radius: 0; }

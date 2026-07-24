@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://donau-ries-haustechnik.de/</loc></url>
-  <url><loc>https://donau-ries-haustechnik.de/bad/</loc></url>
-  <url><loc>https://donau-ries-haustechnik.de/heizung/</loc></url>
-  <url><loc>https://donau-ries-haustechnik.de/lueftung/</loc></url>
-  <url><loc>https://donau-ries-haustechnik.de/leistungen-gewerbekunden/</loc></url>
-  <url><loc>https://donau-ries-haustechnik.de/unternehmen/</loc></url>
-  <url><loc>https://donau-ries-haustechnik.de/jobs/</loc></url>
-  <url><loc>https://donau-ries-haustechnik.de/kontaktformular/</loc></url>
-  <url><loc>https://donau-ries-haustechnik.de/einsatzgebiet/</loc><lastmod>2026-06-22</lastmod></url>
-  <url><loc>https://donau-ries-haustechnik.de/blog/</loc></url>
-  <url><loc>https://donau-ries-haustechnik.de/blog/badsanierung-ablauf-kosten/</loc></url>
-  <url><loc>https://donau-ries-haustechnik.de/blog/waermepumpe-oder-gasheizung/</loc></url>
-  <url><loc>https://donau-ries-haustechnik.de/impressum/</loc></url>
-  <url><loc>https://donau-ries-haustechnik.de/datenschutz/</loc></url>
+  <url><loc>https://donau-ries-haustechnik.de/</loc><lastmod>2026-07-23</lastmod></url>
+  <url><loc>https://donau-ries-haustechnik.de/bad/</loc><lastmod>2026-07-23</lastmod></url>
+  <url><loc>https://donau-ries-haustechnik.de/heizung/</loc><lastmod>2026-07-23</lastmod></url>
+  <url><loc>https://donau-ries-haustechnik.de/lueftung/</loc><lastmod>2026-07-23</lastmod></url>
+  <url><loc>https://donau-ries-haustechnik.de/leistungen-gewerbekunden/</loc><lastmod>2026-07-23</lastmod></url>
+  <url><loc>https://donau-ries-haustechnik.de/unternehmen/</loc><lastmod>2026-07-23</lastmod></url>
+  <url><loc>https://donau-ries-haustechnik.de/jobs/</loc><lastmod>2026-07-23</lastmod></url>
+  <url><loc>https://donau-ries-haustechnik.de/kontaktformular/</loc><lastmod>2026-07-23</lastmod></url>
+  <url><loc>https://donau-ries-haustechnik.de/einsatzgebiet/</loc><lastmod>2026-07-23</lastmod></url>
+  <url><loc>https://donau-ries-haustechnik.de/blog/</loc><lastmod>2026-07-23</lastmod></url>
+  <url><loc>https://donau-ries-haustechnik.de/blog/badsanierung-ablauf-kosten/</loc><lastmod>2026-07-23</lastmod></url>
+  <url><loc>https://donau-ries-haustechnik.de/blog/waermepumpe-oder-gasheizung/</loc><lastmod>2026-07-23</lastmod></url>
+  <url><loc>https://donau-ries-haustechnik.de/datenschutz/</loc><lastmod>2026-07-23</lastmod></url>
 </urlset>

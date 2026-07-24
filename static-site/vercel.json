@@ -1,5 +1,16 @@
 {
-    "trailingSlash":  true,
+    "headers": [
+        {
+            "source": "/(.*)",
+            "has": [{ "type": "host", "value": "donau-ries-haustechnik.vercel.app" }],
+            "headers": [{ "key": "X-Robots-Tag", "value": "noindex, nofollow" }]
+        },
+        {
+            "source": "/(.*)",
+            "has": [{ "type": "host", "value": "donau-ries.vercel.app" }],
+            "headers": [{ "key": "X-Robots-Tag", "value": "noindex, nofollow" }]
+        }
+    ],    "trailingSlash":  true,
     "redirects":  [
                       { "source": "/solar/", "destination": "/", "statusCode": 301 },
                       { "source": "/haustechnik/", "destination": "/", "statusCode": 301 },

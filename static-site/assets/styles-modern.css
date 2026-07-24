@@ -207,7 +207,7 @@ article a:hover, .section p a:hover, .legal a:hover { color: var(--teal-dark); }
 }
 .header-phone::before { content: "\260E"; font-size: 17px; }
 .header-phone:hover { color: var(--teal); }
-.nav-cta, .button.primary { background: var(--gold); color: #fff; text-shadow: 0 1px 2px rgba(0, 0, 0, .32); }
+.nav-cta, .button.primary { background: var(--gold); color: #10234f; text-shadow: none; }
 .button.ghost { background: #fff; border-color: var(--line); color: var(--teal-dark); }
 .button.light { background: #fff; color: var(--teal-dark); }
 .hero, .sub-hero {
@@ -355,23 +355,8 @@ p { color: var(--muted); font-size: 18px; }
 .hero-full .hero-copy > p { max-width: 660px; }
 .hero-full .kicker { color: var(--gold); }
 .hero-full h1 { color: #fff; }
-.hero-title-line {
-  display: block;
-  white-space: nowrap;
-}
-.hero-title-mobile-word { display: none; }
-.hero-title-desktop-word { display: inline; }
+.hero-break-mobile { display: none; }
 .hero-full p { color: rgba(255, 255, 255, .92); }
-.hero-full .button.hero-secondary {
-  background: var(--gold);
-  border-color: var(--gold);
-  color: #fff;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, .32);
-}
-.hero-full .button.hero-secondary:hover {
-  background: #c2912a;
-  border-color: #c2912a;
-}
 .hero-full .hero-trust-row { margin-top: 14px; }
 .hero-full .trust-row span, .hero-full .trust-row a {
   background: rgba(255, 255, 255, .12);
@@ -392,11 +377,8 @@ p { color: var(--muted); font-size: 18px; }
       linear-gradient(180deg, rgba(37, 60, 140, .78) 0%, rgba(37, 60, 140, .62) 100%),
       url("images/hero-firma.jpg?v=3");
   }
-  .hero-title-line { white-space: normal; }
-  .hero-title-line-main { display: inline; }
-  .hero-title-mobile-word { display: inline; }
-  .hero-title-line-secondary { display: block; }
-  .hero-title-desktop-word { display: none; }
+  .hero-break-desktop { display: none; }
+  .hero-break-mobile { display: inline; }
 }
 
 /* Full-screen hero for inner pages (background set inline per page) */
@@ -479,6 +461,7 @@ p { color: var(--muted); font-size: 18px; }
 }
 .service-card:is(
   [href$="bad/"],
+  [href$="badsanierung-ablauf-kosten/"],
   [href$="heizung/"],
   [href$="waermepumpe/"],
   [href$="solar/"],
@@ -502,7 +485,8 @@ p { color: var(--muted); font-size: 18px; }
   transition: transform .2s ease;
 }
 .service-card:hover::before { transform: translateY(-2px) scale(1.06); }
-.service-card[href$="bad/"]::before { -webkit-mask-image: url("icons/bad.svg"); mask-image: url("icons/bad.svg"); }
+.service-card[href$="bad/"]::before,
+.service-card[href$="badsanierung-ablauf-kosten/"]::before { -webkit-mask-image: url("icons/bad.svg"); mask-image: url("icons/bad.svg"); }
 .service-card[href$="heizung/"]::before,
 .service-card[href$="waermepumpe/"]::before { -webkit-mask-image: url("icons/heizung.svg"); mask-image: url("icons/heizung.svg"); }
 .service-card[href$="solar/"]::before { -webkit-mask-image: url("icons/solar.svg"); mask-image: url("icons/solar.svg"); }
@@ -551,7 +535,7 @@ p { color: var(--muted); font-size: 18px; }
   background: var(--soft);
   border: 1px solid var(--line);
 }
-.steps b { color: var(--gold); font-size: 30px; }
+.steps b { color: #8a6100; font-size: 30px; }
 .feature-panel ul { margin: 0; padding-left: 20px; color: var(--muted); }
 .detail-cards {
   display: grid;
@@ -825,6 +809,7 @@ textarea { min-height: 92px; resize: vertical; }
 @media (max-width: 520px) { .form-row { grid-template-columns: 1fr; } }
 .req { color: var(--gold); font-weight: 700; }
 .form-notice { min-height: 24px; margin: 0; color: var(--teal); font-weight: 600; }
+.stand-hinweis { margin-top: 12px; color: var(--muted); font-size: 14px; line-height: 1.55; }
 .form-privacy { margin: 14px 0 0; font-size: 12.5px; line-height: 1.5; color: var(--muted); }
 .form-privacy a { color: var(--teal); text-decoration: underline; }
 .legal, .alias { min-height: 52vh; }
@@ -835,7 +820,7 @@ textarea { min-height: 92px; resize: vertical; }
 }
 .footer-grid {
   display: grid;
-  grid-template-columns: 1.4fr .7fr .9fr .6fr;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 28px;
   max-width: 1240px;
   margin: 0 auto;
@@ -1074,9 +1059,9 @@ textarea { min-height: 92px; resize: vertical; }
     padding: 11px 14px;
     border-radius: 0;
     background: var(--gold);
-    color: #fff;
-    text-shadow: 0 1px 2px rgba(0, 0, 0, .32);
-    font-weight: 600;
+    color: #10234f;
+    text-shadow: none;
+    font-weight: 700;
     font-size: 15px;
     text-decoration: none;
     box-shadow: 0 8px 22px rgba(16, 37, 43, .18);
@@ -1209,3 +1194,8 @@ input:focus, textarea:focus, select:focus { outline: none; border-color: var(--t
   .hero-full p, .page-hero p, .sub-hero p { line-height: 1.5; }
 }
 
+
+
+.article-meta { margin: 8px 0 24px; color: var(--muted); font-size: 14px; line-height: 1.55; }
+.google-rating-link { display: inline-flex; align-items: center; gap: 5px; color: #fff; text-decoration: none; }
+.google-rating-link:hover { text-decoration: underline; text-underline-offset: 3px; }

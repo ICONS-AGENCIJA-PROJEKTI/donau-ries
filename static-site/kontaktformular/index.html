@@ -7,8 +7,8 @@
   <meta name="description" content="Kontakt zur Donau-Ries Haustechnik GmbH in Harburg: Telefon, E-Mail und Anfrageformular für Heizung, Sanitär und Lüftung. Wir melden uns zeitnah.">
   <meta name="robots" content="index, follow, max-image-preview:large">
   <link rel="canonical" href="https://donau-ries-haustechnik.de/kontaktformular/">
-  <link rel="stylesheet" href="../assets/styles-modern.css?v=20260711b">
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"ContactPage","name":"Kontakt","url":"https://donau-ries-haustechnik.de/kontaktformular/","about":{"@type":["LocalBusiness","HVACBusiness","PlumbingBusiness"],"name":"Donau-Ries Haustechnik GmbH","telephone":"+49 9080 4317","email":"info@donau-ries-haustechnik.de","address":{"@type":"PostalAddress","streetAddress":"Goethestraße 1","postalCode":"86655","addressLocality":"Harburg","addressCountry":"DE"}}}</script>
+  <link rel="stylesheet" href="../assets/styles-modern.css?v=20260723b">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":["LocalBusiness","HVACBusiness","PlumbingBusiness"],"@id":"https://donau-ries-haustechnik.de/#organization","name":"Donau-Ries Haustechnik GmbH","url":"https://donau-ries-haustechnik.de/","logo":{"@type":"ImageObject","url":"https://donau-ries-haustechnik.de/assets/logo-hero.webp?v=logo2"},"telephone":"+49 9080 4317","email":"info@donau-ries-haustechnik.de","address":{"@type":"PostalAddress","streetAddress":"Goethestraße 1","postalCode":"86655","addressLocality":"Harburg","addressCountry":"DE"},"areaServed":[{"@type":"AdministrativeArea","name":"Bayern"},{"@type":"AdministrativeArea","name":"Baden-Württemberg"}],"foundingDate":"2017","numberOfEmployees":{"@type":"QuantitativeValue","value":20}},{"@type":"WebSite","@id":"https://donau-ries-haustechnik.de/#website","url":"https://donau-ries-haustechnik.de/","name":"Donau-Ries Haustechnik","inLanguage":"de-DE","publisher":{"@id":"https://donau-ries-haustechnik.de/#organization"}},{"@type":"ContactPage","@id":"https://donau-ries-haustechnik.de/kontaktformular/#webpage","url":"https://donau-ries-haustechnik.de/kontaktformular/","name":"Kontakt | Donau-Ries Haustechnik GmbH","description":"Kontakt zur Donau-Ries Haustechnik GmbH in Harburg: Telefon, E-Mail und Anfrageformular für Heizung, Sanitär und Lüftung. Wir melden uns zeitnah.","inLanguage":"de-DE","isPartOf":{"@id":"https://donau-ries-haustechnik.de/#website"},"about":{"@id":"https://donau-ries-haustechnik.de/#organization"}}]}</script>
   <link rel="icon" href="/favicon.ico?v=logo2" sizes="any">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png?v=logo2">
   <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png?v=logo2">
@@ -19,11 +19,11 @@
   <meta property="og:description" content="Kontakt zur Donau-Ries Haustechnik GmbH in Harburg: Telefon, E-Mail und Anfrageformular für Heizung, Sanitär und Lüftung. Wir melden uns zeitnah.">
   <meta property="og:url" content="https://donau-ries-haustechnik.de/kontaktformular/">
   <meta property="og:site_name" content="Donau-Ries Haustechnik">
-  <meta property="og:image" content="https://donau-ries-haustechnik.vercel.app/assets/og-image.jpg">
+  <meta property="og:image" content="https://donau-ries-haustechnik.de/assets/og-image.jpg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="https://donau-ries-haustechnik.vercel.app/assets/og-image.jpg">
+  <meta name="twitter:image" content="https://donau-ries-haustechnik.de/assets/og-image.jpg">
 </head>
 <body>
 
@@ -80,8 +80,9 @@
     </div>
   </div>
   <form data-supabase-form>
+    <label aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0">Website<input type="text" name="website" tabindex="-1" autocomplete="off"></label>
     <div class="form-row">
-      <label><span>Firma <span class="req">*</span></span><input name="firma" autocomplete="organization" placeholder="Muster Bau GmbH" required></label>
+      <label data-firma-label><span>Firma <span class="req" data-firma-required hidden>*</span></span><input name="firma" autocomplete="organization" placeholder="Muster Bau GmbH"></label>
       <label><span>Ansprechpartner <span class="req">*</span></span><input name="ansprechpartner" autocomplete="name" placeholder="Vor- und Nachname" required></label>
     </div>
     <div class="form-row">
@@ -91,13 +92,14 @@
     <div class="form-row">
       <label><span>Ich bin <span class="req">*</span></span><select name="rolle" required>
         <option value="" selected disabled>Bitte wählen …</option>
+        <option>Privatperson / Eigentümer</option>
         <option>Planer</option>
         <option>Architekt</option>
         <option>Investor</option>
         <option>Bauträger</option>
         <option>Hausverwaltung</option>
       </select></label>
-      <label>Projekttyp<select name="projekttyp">
+      <label><span>Projekttyp <span class="req">*</span></span><select name="projekttyp" required>
         <option value="" selected>Bitte wählen …</option>
         <option>Neubau</option>
         <option>Sanierung</option>
@@ -116,40 +118,36 @@
 <footer class="footer">
   <div class="footer-grid">
     <div>
-      <img class="footer-logo" src="../assets/logo-white.png?v=logo2" alt="Donau-Ries Haustechnik">
-      <p>Ihr SHK-Fachbetrieb für Heizung, Sanitär und Lüftung mit Sitz in Harburg (Schwaben) – in Bayern und Baden-Württemberg für Sie im Einsatz.</p>
-    </div>
-    <div>
       <span>Leistungen</span>
-      <a href="../bad/">Sanitär</a>
-      <a href="../heizung/">Heizung</a>
-      <a href="../lueftung/">Lüftung</a>
-      <a href="../leistungen-gewerbekunden/">Gewerbe</a>
-      <a href="../einsatzgebiet/">Einsatzgebiet</a>
+      <a href="/bad/">Sanitär</a>
+      <a href="/heizung/">Heizung</a>
+      <a href="/lueftung/">Lüftung</a>
+      <a href="/leistungen-gewerbekunden/">Gewerbe</a>
+      <a href="/einsatzgebiet/">Einsatzgebiet</a>
     </div>
     <div>
-      <span>Kontakt</span>
-      <a href="tel:+4990804317">09080 4317</a>
-      <a href="mailto:info@donau-ries-haustechnik.de">info@donau-ries-haustechnik.de</a>
-      <a href="https://maps.google.com/?q=Goethestra%C3%9Fe+1,+86655+Harburg" rel="noopener" target="_blank">Goethestraße 1, 86655 Harburg</a>
+      <span>Unternehmen</span>
+      <a href="/unternehmen/">Über uns</a>
+      <a href="/jobs/">Jobs &amp; Karriere</a>
+      <a href="/blog/">Blog</a>
+      <a href="/kontaktformular/">Kontakt</a>
     </div>
     <div>
       <span>Rechtliches</span>
-      <a href="../kontaktformular/">Kontakt</a>
-      <a href="../impressum/">Impressum</a>
-      <a href="../datenschutz/">Datenschutz</a>
+      <a href="/impressum/">Impressum</a>
+      <a href="/datenschutz/">Datenschutz</a>
     </div>
   </div>
   <div class="footer-bottom">
-    <span>© 2026 Donau-Ries Haustechnik GmbH · Alle Rechte vorbehalten</span>
-    <span>Mo–Do 08:00–13:30 · Fr 08:00–12:00 Uhr · <a href="tel:+4990804317">09080 4317</a></span>
+    <span>Donau-Ries Haustechnik GmbH · Goethestraße 1, 86655 Harburg · <a href="tel:+4990804317">09080 4317</a> · <a href="mailto:info@donau-ries-haustechnik.de">info@donau-ries-haustechnik.de</a></span>
+    <span>Mo–Do 08:00–13:30 · Fr 08:00–12:00 Uhr · © 2026 Donau-Ries Haustechnik GmbH</span>
   </div>
 </footer>
 <a class="mobile-action" href="../kontaktformular/">Projekt anfragen</a>
 
   <script src="../assets/site-modern.js"></script>
   <script src="../assets/supabase-config.js"></script>
-  <script type="module" src="../assets/contact-form.js"></script>
+  <script type="module" src="../assets/contact-form.js?v=20260723"></script>
 <div class="contact-fab" data-contact-fab>
   <div class="contact-fab-options" hidden>
     <a class="cfab-opt" href="tel:+4990804317"><svg viewBox="0 0 24 24"><path d="M6.5 3h3l1.5 5-2 1.5a12 12 0 0 0 5 5l1.5-2 5 1.5v3a2 2 0 0 1-2 2A16 16 0 0 1 4.5 5a2 2 0 0 1 2-2Z"/></svg>Anrufen</a>
